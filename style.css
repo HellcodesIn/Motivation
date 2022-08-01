@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+#quoteBox{
+    background: rgba(3, 20, 75);
+    height: 300px;
+    width: 100%;
+    border: 5px solid rgba(3, 3, 60);
+    text-align: center;
+}
+
+#quoteBox h1{
+    font-size: 24px;
+    position: absolute;
+    top: 150px;
+    left: 25%;
+    color: ghostwhite;
+    text-shadow: 
+        0 0 8px greenyellow,
+        0 0 16px greenyellow,
+        0 0 32px greenyellow;
+}
+
+#quoteBox p{
+    font-size: 12px;
+    position: absolute;
+    top: 270px;
+    left: 90%;
+    color: ghostwhite;
+    text-shadow: 
+        0 0 8px greenyellow,
+        0 0 16px greenyellow,
+        0 0 32px greenyellow;
+}
+
+#generate{
+    position: absolute;
+    width: 300px;
+    left: 400px;
+    font-size: 20px;
+    border: 5px solid;
+    border-radius: 12px;
+    background-color: royalblue;
+}
